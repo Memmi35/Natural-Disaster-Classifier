@@ -215,12 +215,6 @@ python scripts/test_notebooks.py
 docker-compose up --build
 ```
 
-### Cloud Deployment
-
-See [deployment guide](docs/deployment.md) for detailed instructions on deploying to:
-- AWS EC2/ECS
-- Google Cloud Platform
-- Azure Container Instances
 
 ## 📈 Monitoring and Logging
 
@@ -245,9 +239,6 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/contribu
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- **E.O Slimane Yassine** - *Initial work* - [GitHub](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
@@ -258,17 +249,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Google Gemini API team
 - Military Academy for support and resources
 
-## 📧 Contact
 
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
 
 ## 🔗 Related Work
 
-- [Original Research Paper](link-to-paper)
-- [Incident1M Dataset](https://github.com/ethanweber/incident1m)
-- [ResNet Paper](https://arxiv.org/abs/1512.03385)
+- [Original Research Paper](https://arxiv.org/abs/2201.04236)
 
 ---
 
