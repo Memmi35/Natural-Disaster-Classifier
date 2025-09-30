@@ -186,12 +186,6 @@ data:
   test_csv: data/processed/test_f.csv
 ```
 
-## 📚 Documentation
-
-- [API Documentation](docs/api.md)
-- [Model Training Guide](docs/training.md)
-- [Deployment Guide](docs/deployment.md)
-- [Contributing Guidelines](docs/contributing.md)
 
 ## 🧪 Testing
 
@@ -227,7 +221,7 @@ The application includes comprehensive logging and monitoring:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](docs/contributing.md) for details.
+We welcome contributions!
 
 1. Fork the repository
 2. Create a feature branch
