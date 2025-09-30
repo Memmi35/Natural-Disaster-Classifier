@@ -1,0 +1,6 @@
+{
+  "on_fire": 0,
+  "earthquake": 1,
+  "heavy_rainfall": 2,
+  "fog": 3
+}

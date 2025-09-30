@@ -1,0 +1,37 @@
+# Frontend Dockerfile (Next.js)
+FROM node:18-alpine AS frontend-base
+
+WORKDIR /app
+
+# Copy package files
+COPY web/frontend/package*.json ./
+COPY web/frontend/pnpm-lock.yaml ./
+
+# Install dependencies
+RUN npm install -g pnpm
+RUN pnpm install --frozen-lockfile
+
+# Copy source code
+COPY web/frontend/ ./
+
+# Build the application
+RUN pnpm run build
+
+# Production stage
+FROM node:18-alpine AS frontend-production
+
+WORKDIR /app
+
+# Copy built application
+COPY --from=frontend-base /app/.next ./.next
+COPY --from=frontend-base /app/public ./public
+COPY --from=frontend-base /app/package*.json ./
+COPY --from=frontend-base /app/pnpm-lock.yaml ./
+
+# Install production dependencies only
+RUN npm install -g pnpm
+RUN pnpm install --prod --frozen-lockfile
+
+EXPOSE 3000
+
+CMD ["pnpm", "start"]

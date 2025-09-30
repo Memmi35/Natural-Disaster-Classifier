@@ -1,0 +1,10 @@
+# This directory contains raw data files
+# Place your original Incident1M dataset files here
+
+# Example structure:
+# incident_subset_1000.json
+# images/
+#   on_fire/
+#   earthquake/
+#   heavy_rainfall/
+#   fog/

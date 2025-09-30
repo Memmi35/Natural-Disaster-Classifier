@@ -1,0 +1,5 @@
+# This directory contains processed datasets
+# Generated CSV files will be placed here:
+# - train_f.csv
+# - val_f.csv  
+# - test_f.csv

@@ -1,0 +1,5 @@
+# This directory contains trained models
+# Place your trained PyTorch Lightning checkpoints here:
+# - best_model.ckpt
+# - final_model.ckpt
+# - resnet18_incident_classifier.pth
